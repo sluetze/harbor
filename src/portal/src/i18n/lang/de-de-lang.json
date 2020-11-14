@@ -13,7 +13,8 @@
         "REMEMBER": "Login speichern",
         "INVALID_MSG": "Falscher Nutzername oder Passwort.",
         "FORGOT_PWD": "Passwort vergessen",
-        "HEADER_LINK": "Einloggen"
+        "HEADER_LINK": "Einloggen",
+	"CORE_SERVICE_NOT_AVAILABLE": "Core Service ist nicht verfügbar"
     },
     "SIGN_UP": {
         "TITLE": "Registrieren"
@@ -569,7 +570,7 @@
         "REPLICATION_TRIGGER": "Trigger",
         "CREATION_TIME": "Start Zeitpunkt",
         "UPDATE_TIME": "Aktualisierungs Zeitpunkt",
-        "END_TIME": "Abschluss Zeitpunkt,
+        "END_TIME": "Abschluss Zeitpunkt",
         "LOGS": "Logs",
         "OF": "von",
         "ITEMS": "items",
@@ -649,7 +650,8 @@
         "DELETED_FAILED": "Löschen des Endknoten fehlgeschlagen.",
         "CANNOT_EDIT": "Endknoten kann nicht geändert werden, während die Replikationsregel aktivi ist.",
         "FAILED_TO_DELETE_TARGET_IN_USED": "Genutzter Endknoten konnte nicht gelöscht werden.",
-        "PLACEHOLDER": "Wir konnten keine Endknoten finden."
+        "PLACEHOLDER": "Wir konnten keine Endknoten finden.",
+	"DEPRECATED": "Helm Hub wird nach Artifact Hub migriert"
     },
     "REPOSITORY": {
         "COPY_DIGEST_ID": "Kopiere Digest",
@@ -1251,7 +1253,7 @@
         "RULE_NAME_4": " die zuletzt gepullten {{number}} Artefakte",
         "RULE_NAME_5": " immer",
         "ADD_RULE": "REGEL HINZUFÜGEN",
-        "ADD_RULE_HELP_1": "Den 'REGEL HINZUFÜGEN' Knopf drücken, um eine Regel hinzuzufügen.",
+        "ADD_RULE_HELP_1": "Den REGEL HINZUFÜGEN Knopf drücken, um eine Regel hinzuzufügen.",
         "ADD_RULE_HELP_2": "Tag Retention Regeln laufen einmal täglich.",
         "RETENTION_RUNS": "Retention Durchläufe",
         "RUN_NOW": "JETZT AUSFÜHREN",
@@ -1295,7 +1297,7 @@
         "RETENTION_RUN": "Retention Durchlauf",
         "RETENTION_RUN_EXPLAIN": "Das Ausführen der Retention Regeln kann widrige Effekte auf Artefakte in diesem Projekt haben und betroffene Artefakte/Tags werden gelöscht. Drücke ABBRECHEN und nutze DRY RUN um den Effekt der Regeln zu simulieren. Andernfalls über STARTEN fortfahren.",
         "RETENTION_RUN_ABORTED": "Retention Durchlauf abgebrochen",
-        "RETENTION_RUN_ABORTED_EXPLAIN": "Der Durchlauf wurde abgebrochen. Bereits gelöschte Artefakte sind nicht wiederherstellbar. Mit einem weiteren Durchlauf kann das Löschen von Artefakten fortgesetzt werden. Um einen Durchlauf zu simulieren kann 'DRY RUN' verwendet werden.",
+        "RETENTION_RUN_ABORTED_EXPLAIN": "Der Durchlauf wurde abgebrochen. Bereits gelöschte Artefakte sind nicht wiederherstellbar. Mit einem weiteren Durchlauf kann das Löschen von Artefakten fortgesetzt werden. Um einen Durchlauf zu simulieren kann DRY RUN verwendet werden.",
         "LOADING": "Lade...",
         "NO_EXECUTION": "Keine Durchläufe gefunden!",
         "NO_HISTORY": "Keine vergangenen Durchläufe gefunden!",
@@ -1329,7 +1331,9 @@
         "COUNT_LARGE": "Parameter \"ANZAHL\" ist zu hoch",
         "DAYS_LARGE": "Parameter \"TAGE\" ist zu hoch",
         "EXECUTION_TYPE": "Ausführungstyp",
-        "ACTION": "AKTION"
+        "ACTION": "AKTION",
+	"YES": "Ja",
+	"NO": "Nein"
     },
     "IMMUTABLE_TAG": {
         "IMMUTABLE_RULES": "Immutability Regeln",

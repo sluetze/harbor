@@ -21,7 +21,7 @@ export const languageNames = {
   "fr-fr": "Français",
   "pt-br": "Português do Brasil",
   "tr-tr": "Türkçe",
-  "de-de". "Deutsch"
+  "de-de": "Deutsch"
 };
 export const enum AlertType {
   DANGER, WARNING, INFO, SUCCESS
